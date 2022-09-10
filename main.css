@@ -1,0 +1,47 @@
+body {
+    background-color: yellow;
+  }
+  body .butoon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .butoon button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+  }
+  body .section-center {
+    width: 80%;
+    margin: 20px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body .section-center .menu-item {
+    width: 300px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    line-height: 1;
+    margin: 10px;
+    height: 400px;
+    box-sizing: border-box;
+  }
+  body .section-center .menu-item .item-info {
+    padding: 10px;
+  }
+  body .section-center .menu-item .photo {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+  }/*# sourceMappingURL=main.css.map */
